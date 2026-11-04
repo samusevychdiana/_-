@@ -1,0 +1,23 @@
+.modal {
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    position: fixed;
+    left: 43%;
+
+    display: none;
+
+    animation: bob 3s ease;
+}
+
+@keyframes bob {
+    0% {
+        opacity: 0;
+        transform: translateX(-700px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
